@@ -9,7 +9,7 @@ var MSG_STATUS_USER_MASTER = '<span class="m_status">Master Machine</span>';
 var MSG_STATUS_USER_SLAVE = "<span class='s_status'>Slave Machine</span>";
 
 
-	SERVER_LISTEN_PORT = 8089;
+	SERVER_LISTEN_PORT = 8889;
 	
 	app.set('views',__dirname+'/views'); // ruta de nuestras vistas;
 	
