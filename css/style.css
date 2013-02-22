@@ -1,0 +1,75 @@
+
+
+@font-face {
+    font-family: "opensanslight";
+    font-style: normal;
+    font-weight: normal;
+    src: url("font/OpenSans-Light.ttf") format("truetype");
+}
+
+
+body{
+ background: none repeat scroll 0 0 #EEEEEE;
+    font-family: 'opensanslight';
+
+}
+ 
+
+
+span.count_sockets{
+    font-weight: 700;
+    padding-left: 2px;
+    padding-right: 4px;
+}
+
+
+section {
+    background: none repeat scroll 0 0 white;
+    border-bottom: 1px solid white;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3) inset;
+    margin: 0 auto;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    text-align: center;
+    width: 90%;
+}
+
+
+header div {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.m_status{ /* master status */
+
+    color: green;
+
+}
+
+.s_status{/* slave status*/
+
+color:red;
+
+}
+
+
+.type_user {
+    font-size: 21px;
+    font-weight: bold;
+}
+
+ul.status_connection li {
+    display: inline-block;
+}
+
+
+input {
+ display: inline-block;
+    margin-left: 8px;
+    margin-top: 10px;
+    text-align: center;
+    width: 40px;
+}

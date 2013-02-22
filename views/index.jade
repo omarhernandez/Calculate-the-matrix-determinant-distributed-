@@ -1,0 +1,46 @@
+doctype 5	
+html(lang="es")
+	head
+		meta(charser='utf-8')
+		title 'Determinante in zoombies Clients'
+		link(href='/css/normalize.css' , rel='stylesheet' )
+		link(href='/css/style.css' , rel='stylesheet')
+
+		// now scripts
+
+		script(src='/socket.io/socket.io.js')
+		script(src='/js/jquery-1.6.js')
+		script(src="/js/socket_connection.js")
+
+
+
+	body
+
+		header
+
+			div Status : 
+
+				span.type_user
+
+
+
+			div There
+				span.count_sockets 
+
+				| for calcule the matrix determinant
+
+			div
+				ul.status_connection
+					li
+						|Master  
+						.master
+					li  |
+
+					li   Slaves   
+						.slaves
+
+		section
+			span.msg_status_data
+ 
+ 
+		footer
