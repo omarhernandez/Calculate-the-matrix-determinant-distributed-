@@ -1,4 +1,4 @@
 Calculate-the-matrix-determinant-distributed-
 =============================================
 
-Calculate the matrix determinant distributed through TCP
+Node.js Calculate the matrix determinant distributed through TCP
